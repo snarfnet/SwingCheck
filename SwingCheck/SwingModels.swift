@@ -134,7 +134,11 @@ struct SwingSession {
     var timingErrors: [Double] = []
     var formScore: FormScore = FormScore()
 
-    var hitCount: Int { timingResults.filter { if case .miss = $0 { false } else if case .noSwing = $0 { false } else { true } }.count }
+    var hitCount: Int {
+        timingResults.filter {
+            switch $0 { case .miss, .noSwing: false; default: true }
+        }.count
+    }
     var hitRate: Double { swings > 0 ? Double(hitCount) / Double(swings) * 100 : 0 }
     var avgTimingError: Double { timingErrors.isEmpty ? 0 : timingErrors.reduce(0,+) / Double(timingErrors.count) }
 }
