@@ -1,0 +1,156 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Ready" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "構え" } }
+      }
+    },
+    "Load" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "バックスイング" } }
+      }
+    },
+    "Swing!" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "スイング！" } }
+      }
+    },
+    "Follow Through" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "フォロースルー" } }
+      }
+    },
+    "Straight" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "ストレート" } }
+      }
+    },
+    "Curve" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "カーブ" } }
+      }
+    },
+    "Slider" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "スライダー" } }
+      }
+    },
+    "Slow" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "遅球" } }
+      }
+    },
+    "Medium" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "中速" } }
+      }
+    },
+    "Fast" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "速球" } }
+      }
+    },
+    "NO SWING" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "見逃し" } }
+      }
+    },
+    "pitches" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "球" } }
+      }
+    },
+    "hit" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "ヒット率" } }
+      }
+    },
+    "PITCH!" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "投球！" } }
+      }
+    },
+    "End" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "終了" } }
+      }
+    },
+    "Start Session" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "セッション開始" } }
+      }
+    },
+    "Stance" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "スタンス" } }
+      }
+    },
+    "Hip" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "腰" } }
+      }
+    },
+    "Head" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "頭" } }
+      }
+    },
+    "Follow" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "振り" } }
+      }
+    },
+    "Overall Grade" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "総合評価" } }
+      }
+    },
+    "Pitches" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "投球数" } }
+      }
+    },
+    "Hit Rate" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "ヒット率" } }
+      }
+    },
+    "Avg Error" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "平均誤差" } }
+      }
+    },
+    "Form Analysis" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "フォーム分析" } }
+      }
+    },
+    "Hip Rotation" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "腰の回転" } }
+      }
+    },
+    "Head Stability" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "頭の安定性" } }
+      }
+    },
+    "Follow Through" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "フォロースルー" } }
+      }
+    },
+    "Timing History" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "タイミング履歴" } }
+      }
+    },
+    "Done" : {
+      "localizations" : {
+        "ja" : { "stringUnit" : { "state" : "translated", "value" : "完了" } }
+      }
+    }
+  },
+  "version" : "1.0"
+}
