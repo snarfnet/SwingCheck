@@ -2,7 +2,7 @@ import jwt, time, requests, sys
 
 KEY_ID = 'WDXGY9WX55'
 ISSUER = '2be0734f-943a-4d61-9dc9-5d9045c46fec'
-APP_ID = 'PLACEHOLDER'  # updated after ASC registration
+APP_ID = '6774498196'
 BUILD_NUMBER = sys.argv[1]
 
 p8 = open('/tmp/asc_key.p8').read()
@@ -64,6 +64,8 @@ if not version_id or version_state == 'READY_FOR_DISTRIBUTION':
 api('PATCH', f'/appStoreVersions/{version_id}/relationships/build',
     json={'data': {'type': 'builds', 'id': build_id}})
 print(f'Build assigned to version')
+print('TestFlight ready. Skipping review submission for manual testing.')
+sys.exit(0)
 
 submission_id = None
 for attempt in range(5):
