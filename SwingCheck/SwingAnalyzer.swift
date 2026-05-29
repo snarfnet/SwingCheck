@@ -116,14 +116,14 @@ final class SwingAnalyzer {
             let fw = abs(la.x - ra.x)
             let sw = abs(ls.x - rs.x)
             let ratio = fw / max(sw, 0.01)
-            stanceSamples.append(max(0, min(100, 100 - abs(ratio - 1.2) * 140)))
+            stanceSamples.append(max(0, min(100, 100.0 - Double(abs(ratio - 1.2)) * 140.0)))
         }
 
         // 腰の回転
         if let lh, let rh, let ls, let rs {
             let ha = atan2(rh.y - lh.y, rh.x - lh.x)
             let sa = atan2(rs.y - ls.y, rs.x - ls.x)
-            hipRotSamples.append(min(100, abs(ha - sa) * 280))
+            hipRotSamples.append(min(100, Double(abs(ha - sa)) * 280.0))
         }
 
         // 頭の安定性

@@ -4,7 +4,7 @@ import SwiftUI
 
 // MARK: - Body Pose
 
-struct BodyPose {
+struct BodyPose: Equatable {
     var joints: [VNHumanBodyPoseObservation.JointName: CGPoint] = [:]
     func point(_ name: VNHumanBodyPoseObservation.JointName) -> CGPoint? { joints[name] }
 }
