@@ -13,6 +13,8 @@ settings:
     PRODUCT_BUNDLE_IDENTIFIER: com.tokyonasu.swingcheck
     DEVELOPMENT_TEAM: 83VGKGSQUH
     CODE_SIGN_STYLE: Automatic
+    ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    INFOPLIST_KEY_CFBundleIconName: AppIcon
 
 targets:
   SwingCheck:
